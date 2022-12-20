@@ -3,7 +3,7 @@ version: '3.1'
 services:
   database:
     image: postgres
-    restart: always
+    restart: never
     environment:
       POSTGRES_PASSWORD: admin1234
       POSTGRES_DB: security_keycloak
